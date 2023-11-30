@@ -1,0 +1,322 @@
+html{
+    overflow-x: hidden;
+}
+h1{
+    font-weight: 900;
+    text-align: center;
+}
+h2{
+    display: block;
+}
+img{
+    object-fit: cover;
+}
+#home-link{
+    color: white;
+}
+#services-link{
+    color: white;
+}
+#contact-link{
+color: white;
+}
+#info{
+    background-color: #1c1e32;
+}
+#social-media{
+    background-color: #1c1e32;
+}
+#tel-icon{
+    background-color: white;
+    margin-bottom: 2px;
+    margin-left: 35px;
+}
+#tel{
+    color: #748aa5;
+    display: inline-flex;
+    margin: 10px 10px 10px 0;
+}
+#line{
+    width: 1.5px;
+    height: 25px;
+    background-color: #577498;
+    display: inline-flex;
+    position: absolute;
+    top: 10px;
+}
+#mail{
+    display: inline-flex;
+    position: relative;
+    left: 10px;
+    color: #748aa5;
+}
+#navbar{
+    background-color: #2b2e4a;
+}
+#nav-menu{
+    background-color: #2b2e4a;
+}
+#nav-menu li a{
+    color: #748aa5;
+}
+#logo{
+    color: #ec760a;
+    font-size: 30px;
+}
+#search-bar{
+    margin-top: 15px;
+}
+#search-btn{
+    background-color: #ec760a;
+    color: white;
+    border: none;
+    height: 40px;
+}
+.location, #car-type{
+    height: 40px;
+}
+.pgnum{
+    font-size: 70px;
+    color: #ec760a;
+    line-height: 110px;
+}
+#cont1{
+    margin-top: 70px;
+}
+#cont2{
+    margin-top: 20px;
+    margin-bottom: 90px;
+    padding: 0;
+}
+#cont3{
+    margin-top: 25px;
+}
+#welcome{
+    color:#1c1e32;
+    font-size: 34px;
+    font-weight: 900;
+}
+#services, #contact{
+    color:#1c1e32;
+    font-size: 45px;
+    font-weight: 900;
+}
+#royal{
+    color: #ec760a;
+    font-size: 34px;
+    font-weight: 900;
+}
+#sampletext{
+    width: 60%;
+    text-align: center;
+    color: #a4a4a4;
+    font-size:14px;
+    margin-top: 50px;
+}
+#box1, #box3{
+    background-color: #f4f5f8;
+    padding: 0;
+}
+#box1, #box2{
+    padding: 0;
+}
+#box2{
+    background-color: #2b2e4a;
+    color: white;
+}
+.square{
+    background-color: #ec760a;
+    width: 56%;
+    height: 70%;
+    margin: 18px 15px 0 0;
+    display: block;
+}
+.square2{
+    background-color: #ec760a;
+    width: 15%;
+    height: 58px;
+}
+#text1, #text2, #text3{
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+#svnum1, #svnum3, #svnum4, #svnum5, #svnum6{
+    font-size: 80px;
+    color: white;
+}
+#svnum2{
+    font-size: 80px;
+    font-weight: 900;
+    color: #1c1e32;
+}
+#car-rental, #car-inspection, #auto-repair, #auto-paint, #auto-cleaning{
+    background-color: #f4f5f8;
+    margin: 0;
+    padding: 0;
+}
+#car-rental2{
+    padding: 0;
+}
+#car-financing{
+    background-color: #2b2e4a;
+    color: white;
+    padding: 0;
+}
+#sampletext2{
+    text-align: justify;
+    color: #a4a4a4;
+    font-size:14px;
+}
+#discount{
+    color: #ec760a;
+    bottom: 350px;
+    font-size: 350%;
+    position: relative;
+    line-height: 0;
+    font-weight: 900;
+}
+#offer{
+    color: white;
+    font-size: 110%;
+    position: relative;
+    line-height: 0;
+    bottom: 280px;
+    text-align: center;
+    font-weight: 900;
+}
+#offer-time{
+    color: #748aa5;
+    font-size: 90%;
+    position: relative;
+    line-height: 0;
+    bottom: 250px;
+    text-align: center;
+}
+#img-front{
+    background-color: #1c1e32;
+    height: 500px;
+    opacity: 0.9;
+    z-index: -1;
+    margin-bottom: 60px;
+}
+#register-btn, .start{
+    position: relative;
+    background-color: #ec760a;
+    color: white;
+    line-height: 0;
+    padding: 25px;
+    text-align: center;
+    display: block;
+    width: 180px;
+    text-decoration: none;
+}
+#register-btn{
+    margin: auto;
+    bottom: 220px;
+}
+.start{
+    width: 140px;
+    line-height: 0;
+    text-decoration: none;
+    margin-bottom: 90px;
+    margin-top: 10px;
+    display: block;
+}
+#driver,#car{
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    margin-top: 80px;
+}
+#driver-box{
+    background-color: #2b2e4a;
+    margin-right: 0.01%;
+}
+#sampletext3, #sampletext4{
+    color: #748aa5;
+}
+#car-box{
+    background-color: #1c1e32;
+}
+.Hline{
+    width: 35px;
+    height: 3px;
+    background-color: #a4a4a4;
+    margin: 7px 5px;
+}
+#drop{
+    width: 60px;
+    height: 40px;
+}
+#submit-btn{
+    background-color: #ec760a;
+    color: white;
+    border: none;
+}
+#cont4{
+    background-color: #f4f5f8;
+}
+#cont5{
+    background-color: #1c1e32;
+}
+#office,#office2, #customer{
+    color: white;
+    margin: 50px 0px 10px 5px;
+    font-size: 18px;
+    display: inline-block;
+}
+#office2, #customer{
+    margin-top: 0;
+}
+#pin{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #ec760a;
+    border-radius: 15px 15px 0 15px;
+    position: relative;
+    transform: rotate(45deg);
+    margin-left: 30px;
+    top: 5px;
+}
+#pin::after{
+    content: "";
+    background-color: #1c1e32;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 26%;
+    top: 26%;
+    border-radius: 6px;
+}
+.address{
+    color: #748aa5;
+    margin-left: 65px;
+}
+#refund{
+    margin-bottom: 50px;
+}
+footer{
+    background-color: #1c1e32;
+}
+footer p{
+    color: #748aa5;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.footer-txt{
+    color: #ec760a;
+    font-size: 18px;
+}
+#square3{
+    background-color: #ec760a;
+    width: 44px;
+    height: 44px;
+    color: white;
+}
+#square3 a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}

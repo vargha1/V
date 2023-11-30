@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Cars</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <header class="d-flex flex-column">
+        <div class="d-flex justify-content-between">
+            <div class="container" id="info">
+                <img src="images/icons/telephone.png" id="tel-icon" alt="telephone icon" width="20px" height="20px">
+                <p id="tel">+012 345 6789</p>
+                <div id="line"></div>
+                <img src="images/icons/mail.png" alt="mail icon" width="20px"
+                    style="position: relative;left:6px;bottom: 2px;">
+                <p id="mail">mail@domain.com</p>
+            </div>
+            <div class="container d-flex justify-content-end align-items-center" id="social-media">
+                <i class="fa-brands fa-facebook-f" style="color: #9bb2cf;margin: 0 15px;"></i>
+                <i class="fa-brands fa-twitter" style="color: #9bb2cf;margin: 0 15px;"></i>
+                <i class="fa-brands fa-linkedin-in" style="color: #9bb2cf;margin: 0 15px;"></i>
+                <i class="fa-brands fa-instagram" style="color: #9bb2cf;margin: 0 15px;"></i>
+                <i class="fa-brands fa-youtube" style="color: #9bb2cf;margin: 0 25px 0 15px;"></i>
+            </div>
+        </div>
+        <nav class="container-fluid d-flex justify-content-between flex-row p-3" id="navbar">
+            <h1 class="ms-md-5" id="logo">ROYAL CARS</h1>
+            <ul class="nav d-md-flex d-none">
+                <li class="nav-item"><a class="nav-link" id="home-link" href="#">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" id="services-link" href=".pgnum">SERVICES</a></li>
+                <li class="nav-item"><a class="nav-link" id="contact-link" href="#">CONTACT</a></li>
+            </ul>
+            <div class="dropdown d-md-none d-block" id="drop">
+                <button class="btn" aria-expanded="false" data-bs-toggle="dropdown" type="button" id="dropdown-btn">
+                    <div class="Hline"></div>
+                    <div class="Hline"></div>
+                    <div class="Hline"></div>
+                </button>
+                <ul class="dropdown-menu" id="nav-menu" aria-labelledby="dropdown-btn">
+                    <li><a href="#" class="dropdown-item">HOME</a></li>
+                    <li><a href="#" class="dropdown-item">SERVICES</a></li>
+                    <li><a href="#" class="dropdown-item">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container d-flex justify-content-center" id="search-bar">
+                <div class="container d-grid">
+                    <form class="row gap-2 justify-content-between">
+                        <select name="pickup-location" class="col-lg-3 col-12 location">
+                            <option disabled selected>Pickup Location</option>
+                            <option> </option>
+                            <option> </option>
+                            <option> </option>
+                            <option> </option>
+                            <option> </option>
+                        </select>
+                        <select name="pickup-location" class="col-lg-3 col-12 location">
+                            <option disabled selected>Drop Location</option>
+                            <option> </option>
+                            <option> </option>
+                            <option> </option>
+                            <option> </option>
+                            <option> </option>
+                        </select>
+                        <select name="pickup-location" class="col-lg-3 col-12" id="car-type">
+                            <option disabled selected>Select a Car</option>
+                            <option> </option>
+                            <option> </option>
+                            <option> </option>
+                            <option> </option>
+                            <option> </option>
+                        </select>
+                        <input type="submit" class="col-lg-2 col-12" id="search-btn" value="Search">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="d-flex flex-column align-items-center" id="cont1">
+            <h1><span class="pgnum">01</span><br><span id="welcome">WELCOME TO</span><span id="royal"> ROYAL
+                    CARS</span></h1>
+            <img src="images/cars.jpg" width="50%" alt="cars" height="300px">
+            <p id="sampletext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, nostrum eius officia
+                dignissimos consequuntur explicabo. Non, sunt laudantium commodi quae recusandae, assumenda rem dolore
+                autem, iusto odio id doloribus ad?
+                Aut, eius? Eligendi maiores temporibus cupiditate nam! Voluptate fugit possimus, enim, eligendi quam
+                quibusdam ullam assumenda at doloremque aperiam et laudantium fugiat itaque vel ipsam eaque perferendis
+                deleniti! Eveniet, porro?
+                Blanditiis earum amet ut voluptates consectetur, sed saepe autem similique temporibus omnis quasi nulla
+                ex officiis quam velit maxime minus vero. Adipisci consectetur corrupti voluptate est. Minima nulla
+                neque nostrum.</p>
+        </section>
+        <section class="container d-flex justify-content-center flex-column" id="cont2">
+            <div class="d-grid">
+                <div class="row">
+                    <div class="col-lg col-12 me-3" id="box1">
+                        <div class="row">
+                            <div class="col-4 col-md-4 col-sm-3">
+                                <div class="square">
+                                    <img src="images/icons/support.png" width="45%" height="55%" alt="headphones icon"
+                                        style="position: relative;left: 28%;top: 25%;">
+                                </div>
+
+                            </div>
+                            <div class="col-8 col-md-8 col-sm-9">
+                                <p id="text1">24/7 CAR RENTAL SUPPORT</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg col-12 me-3" id="box2">
+                        <div class="row">
+                            <div class="col-4 col-md-4 col-sm-3">
+                                <div class="square">
+                                    <img src="images/icons/car.png" width="45%" height="40%" alt="car icon"
+                                        style="position: relative;left: 27%;top: 30%;">
+                                </div>
+                            </div>
+                            <div class="col-8 col-md-8 col-sm-9">
+                                <p id="text2">CAR RESERVATION ANYTIME</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg col-12" id="box3">
+                        <div class="row">
+                            <div class="col-4 col-md-4 col-sm-3">
+                                <div class="square">
+                                    <img src="images/icons/location.png" width="45%" height="55%" alt="location icon"
+                                        style="position: relative;left: 28%;top: 20%;">
+                                </div>
+                            </div>
+                            <div class="col-8 col-md-8 col-sm-9">
+                                <p id="text3">LOTS OF PICKUP LOCATIONS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container d-flex justify-content-center flex-column">
+            <div>
+                <h1><span class="pgnum">02</span><br><span id="services">OUR SERVICES</span></h1>
+            </div>
+            <div class="d-grid gap-3" id="cont3">
+                <div class="row">
+                    <div class="col-lg col-12 me-3" id="car-rental">
+                        <div class="container d-flex flex-column" id="car-rental2">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="square2">
+                                    <img src="images/icons/car.png" width="40%" height="40%" alt="car icon"
+                                        style="position: relative;left: 32%;top: 22%;">
+                                </div>
+                                <p id="svnum1">01</p>
+                            </div>
+                            <h3>CAR RENTAL</h3>
+                            <p id="sampletext2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore,
+                                eveniet magnam? Vero, et velit hic minima repellendus sequi.</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-lg col-12 me-3" id="car-financing">
+                        <div class="container d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="square2">
+                                    <img src="images/icons/creditcard.png" width="45%" height="45%" alt="car icon"
+                                        style="position: relative;left: 30%;top: 24%;">
+                                </div>
+                                <p id="svnum2">02</p>
+                            </div>
+                            <h3>CAR FINANCING</h3>
+                            <p id="sampletext2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore,
+                                eveniet magnam? Vero, et velit hic minima repellendus sequi.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg col-12" id="car-inspection">
+                        <div class="container d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="square2">
+                                    <img src="images/icons/car.png" width="40%" height="40%" alt="car icon"
+                                        style="position: relative;left: 32%;top: 22%;">
+                                </div>
+                                <p id="svnum3">03</p>
+                            </div>
+                            <h3>CAR INSPECTION</h3>
+                            <p id="sampletext2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore,
+                                eveniet magnam? Vero, et velit hic minima repellendus sequi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg col-12 me-3" id="auto-repair">
+                        <div class="container d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="square2">
+                                    <img src="images/icons/gears.png" width="40%" height="40%" alt="car icon"
+                                        style="position: relative;left: 30%;top: 24%;">
+                                </div>
+                                <p id="svnum4">04</p>
+                            </div>
+                            <h3>AUTO REPAIRING</h3>
+                            <p id="sampletext2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore,
+                                eveniet magnam? Vero, et velit hic minima repellendus sequi.</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-lg col-12 me-3" id="auto-paint">
+                        <div class="container d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="square2">
+                                    <img src="images/icons/spray.png" width="45%" height="45%" alt="spray icon"
+                                        style="position: relative;left: 32%;top: 22%;">
+                                </div>
+                                <p id="svnum5">05</p>
+                            </div>
+                            <h3>AUTO PAINTING</h3>
+                            <p id="sampletext2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore,
+                                eveniet magnam? Vero, et velit hic minima repellendus sequi.</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col" id="auto-cleaning">
+                        <div class="container d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="square2">
+                                    <img src="images/icons/spray.png" width="45%" height="45%" alt="spray icon"
+                                        style="position: relative;left: 32%;top: 22%;">
+                                </div>
+                                <p id="svnum6">06</p>
+                            </div>
+                            <h3>AUTO CLEANING</h3>
+                            <p id="sampletext2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore,
+                                eveniet magnam? Vero, et velit hic minima repellendus sequi.</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div id="img-front">
+                    <img src="images/car.jpg" alt="a car" width="100%" height="500px"
+                        style="position: relative;opacity: 0.2;">
+                    <div style="height: 0;">
+                        <h1 id="discount">50% OFF</h1>
+                        <p id="offer">SPECIAL OFFER FOR NEW MEMBERS</p>
+                        <p id="offer-time">only for Sunday from 1st Jan tp 30th Jan 2045</p>
+                        <a href="#" id="register-btn">REGISTER NOW</a>
+                    </div>
+                </div>
+            </div class="d-grid">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-lg col-12" id="driver-box">
+                        <div class="row">
+                            <div class="col">
+                                <img src="images/ferrari.png" alt="ferrari" width="95%">
+                            </div>
+                            <div class="col">
+                                <h3 id="driver">WANT TO BE DRIVER?</h3>
+                                <p id="sampletext3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Inventore</p>
+                                <a href="#" class="start" style="left: 70px;">START NOW</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg col-12" id="car-box">
+                        <div class="row">
+                            <div class="col">
+                                <h3 id="car">LOOKING FOR A CAR?</h3>
+                                <p id="sampletext4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Inventore</p>
+                                <a href="#" class="start">START NOW</a>
+                            </div>
+                            <div class="col">
+                                <img src="images/ferrari.png" alt="ferrari" width="95%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex justify-content-center">
+                <h1><span class="pgnum">03</span>
+                    <div id="contact" class="mb-5">CONTACT US<div>
+                </h1>
+            </div>
+            <div class="container">
+                <div class="row p-3">
+                    <div class="col-lg-6 col-12 me-4" id="cont4">
+                        <form>
+                            <div class="container">
+                                <div class="row mt-4">
+                                    <div class="col-6">
+                                        <label for="contact-name"></label>
+                                        <input type="text" name="contact-name" id="contact-name" placeholder="Your Name"
+                                            class="w-100 me-5 p-2">
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="contact-email"></label>
+                                        <input type="text" name="contact-email" id="contact-email"
+                                            placeholder="Your Email" class="w-100 p-2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container d-flex my-3">
+                                <label for="subject"></label>
+                                <input type="text" name="subject" id="subject" placeholder="Subject"
+                                    class="flex-item flex-fill p-2">
+                            </div>
+                            <div class="container">
+                                <textarea name="Message" id="Message" style="width: 100%;height: 120px;"
+                                    placeholder="Message"></textarea>
+                                <input type="submit" value="Send Message" class="mt-1 mb-4 px-5 py-3" id="submit-btn">
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 mb-3" id="cont5">
+                        <div id="pin"></div>
+                        <p id="office">Head Office</p>
+                        <p class="address">123 Street, New York, USA</p>
+                        <div id="pin"></div>
+                        <p id="office2">Branch Office</p>
+                        <p class="address">123 Street, New York, USA</p>
+                        <i class="fa-solid fa-envelope-open fa-xl" style="color: #ec760a; margin-left: 30px;"></i>
+                        <p id="customer">Customer Service</p>
+                        <p class="address">email@domain.com</p>
+                        <i class="fa-solid fa-envelope-open fa-xl" style="color: #ec760a; margin-left: 30px;"></i>
+                        <p id="customer">Return & Refund</p>
+                        <p class="address" id="refund">refund@domain.com</p>
+                    </div>
+                    <div class="col-lg-1 d-flex align-items-end justify-content-end">
+                        <div id="square3">
+                            <a href="#" class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-angles-up fa-lg" style="color: #ffffff;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container d-flex flex-column align-items-center p-4">
+            <p>&copy;&nbsp;<span class="footer-txt">Your Site Name </span>. All rights Reserved</p>
+            <p>Designed By<span class="footer-txt"> Vargha</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
