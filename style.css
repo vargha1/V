@@ -1,6 +1,9 @@
 html{
     overflow-x: hidden;
 }
+.col , .col*{
+    padding: 0;
+}
 h1{
     font-weight: 900;
     text-align: center;
